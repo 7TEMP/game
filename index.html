@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="source/styles.css">
+    <link rel="icon" href="assets/icon.png">
+    <script src="source/app.jsx"></script>
+    <title>welcome.io</title>
+  </head>
+  <body id="bg" class="bg">
+    <div id="loader" class="loader">
+      <center><img src="assets/loading.gif" class="loading"></center>
+    </div>
+    <div id="content" class="content">
+      <center>
+        <h1 id="score"></h1>
+        <div id="box" class="box">
+          <img src="assets/terrain.gif" id="terrain" class="terrain">
+          <img src="assets/mario.gif" id="mario" class="mario">
+        </div>
+        <button id="button" class="button" onclick="jump()">Jump</button>
+      </center>
+    </div>
+  </body>
+</html>
