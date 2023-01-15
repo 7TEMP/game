@@ -1,0 +1,62 @@
+html, body {
+  font-family: monospace;
+}
+
+.bg {
+  transition: 1s;
+  background: none;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.box {
+  margin-top: 80%;
+  width: 90%;
+  height: 200%;
+}
+
+.terrain {
+  width: 100%;
+  height: 200%;
+}
+
+.playground {
+  width: 100%;
+  height: 200%;
+}
+
+.mario {
+  top: 30%;
+  left: 5%;
+  width: 25%;
+  height: 15%;
+  z-index: 1;
+  padding: 0;
+  position: fixed;
+  transition: 0.3s;
+}
+
+.button {
+  margin-top: 30%;
+  background: white;
+  color: #3dbd00;
+  font-size: 17px;
+  font-weight: bold;
+  border: 2px solid #3dbd00;
+  border-radius: 15px;
+  width: 20%;
+  height: 25%;
+}
+
+.content {
+  display: none;
+}
+
+.loader {}
+
+.loading {
+  width: 70%;
+  height: 70%;
+  margin-top: 70%;
+}
